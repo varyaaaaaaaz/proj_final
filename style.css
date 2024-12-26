@@ -1,0 +1,16 @@
+div{
+    width: 50px;
+    height: 50px;
+    position:fixed;
+    left:50%;
+    bottom:50%;
+    background: lightgreen;
+    animation:example 1s infinite linear;
+}
+div:hover{
+    animation:example 0s;
+}
+@keyframes example {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
